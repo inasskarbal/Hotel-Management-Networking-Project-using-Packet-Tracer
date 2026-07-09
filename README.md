@@ -13,6 +13,7 @@ Provide wireless access for employees and guests.
 Configure printers for each department.
 Implement IP addressing and subnetting.
 Ensure communication between all departments.
+
 🏢 Hotel Structure
 First Floor
 Reception Department
@@ -41,12 +42,12 @@ Network Printers
 Wireless Devices
 Wireless Access Points
 Wi-Fi connectivity for laptops and mobile devices
+
 🌐 Router Interconnection Network
 Connection	Network
 Router Links	10.10.10.0/30
 Router Links	10.10.10.4/30
 Router Links	10.10.10.8/30
-
 These networks are used for point-to-point communication between routers.
 
 🔒 VLAN Configuration
@@ -64,6 +65,7 @@ Third Floor
 Department	VLAN ID	Network
 IT	VLAN 20	192.168.2.0/24
 Administration	VLAN 10	192.168.1.0/24
+
 ⚙ Technologies Implemented
 VLANs
 Inter-VLAN Routing
@@ -75,6 +77,7 @@ Network Segmentation
 IP Addressing
 Printer Integration
 Cisco Packet Tracer Simulation
+
 📋 Features
 
 ✅ Department isolation using VLANs
@@ -111,12 +114,7 @@ Ping between different floors
 Router-to-router connectivity verification
 Wireless device connectivity testing
 Printer communication testing
-🚀 How to Run
-Download the project files.
-Open the .pkt file using Cisco Packet Tracer.
-Wait for all devices to initialize.
-Enter Simulation Mode or Realtime Mode.
-Test connectivity using the ping command.
+
 📖 Learning Outcomes
 
 Through this project, the following networking concepts were applied:
@@ -129,10 +127,3 @@ Wireless Network Deployment
 Router Configuration
 Switch Management
 Network Troubleshooting
-👨‍💻 Author
-
-Inass
-
-Bachelor's Student in Computer Science & Networking
-
-Cisco Packet Tracer Project – 2026
